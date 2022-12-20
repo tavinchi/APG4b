@@ -38,5 +38,10 @@ int main(){
 	//printf
 	int j=12345;
 	double pi=3.141592653358979;
-	printf("j=%d,pi=%lf",j,pi);
+	char k='A';
+	string l="hello";
+	printf("j=%d,pi=%lf,",j,pi);
+	printf("k=%c,",k);
+	printf("l=%s",l.c_str()); 
+	
 }
