@@ -9,6 +9,8 @@ int main(){
 	score.erase("ritsu");
 	cout <<score.size()<<endl;
 	score["katsu"]=99;
+
+	//count=所属判定
 	if(score.count("matsu")){
 		cout <<score.at("matsu")<<endl;
 	}
