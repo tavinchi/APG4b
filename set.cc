@@ -35,4 +35,19 @@ int main(){
 	for(auto value:S){
 		cout <<value<<endl;
 	}
+
+	set<int> A;
+
+	A.insert(5);
+	A.insert(10);
+	A.insert(3);
+	A.insert(7);
+
+	if(A.count(5)){
+		cout <<"gooooo"<<endl;
+	}
+
+	for(auto value:A){
+		cout <<value<<endl;
+	}
 }
